@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#1f2a44" />
+  <circle cx="256" cy="256" r="150" fill="#4fd1c5" />
+  <path d="M214 274l-40-40 18-18 22 22 68-68 18 18-86 86z" fill="#082223" />
+  <text x="256" y="410" text-anchor="middle" font-size="48" fill="#f5f7ff" font-family="Arial">Decision Firewall</text>
+</svg>
