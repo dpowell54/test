@@ -244,8 +244,6 @@ checkinForm.addEventListener("submit", async (event) => {
     alert("Please select mood, energy, and sleep quality.");
     return;
   }
-  const flightsValue = document.getElementById("checkinFlights").value;
-  const flights = flightsValue ? Number(flightsValue) : null;
   const note = document.getElementById("checkinNote").value.trim();
   const now = new Date();
   const checkin = {
@@ -254,7 +252,6 @@ checkinForm.addEventListener("submit", async (event) => {
     mood,
     energy,
     sleep,
-    flights,
     note,
   };
   await dbApi.addCheckin(checkin);
